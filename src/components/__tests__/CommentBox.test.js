@@ -1,6 +1,9 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import CommentBox from 'components/CommentBox';
+import {createStore} from 'redux';
+import {Provider} from 'react-redux';
+import reducers from 'reducers';
 
 // mount is used to get the fullDom test
 
